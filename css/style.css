@@ -1,0 +1,540 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+/* naber css start */
+.navbar {
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #141010;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    position: relative;
+}
+li.nav-item {
+    margin: 20px 20px;
+    position: relative;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #040404;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #030303;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    width: 100%;
+}
+
+/* naber css end */
+
+/* header img css start */
+.header_icon {
+    text-align: right;
+    padding-top: 30px;
+}
+.header_icon i{
+    
+    padding: 15px;
+}
+.section{
+    background-image: url('../images/header-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 230px;
+    padding-bottom: 240px;
+    position: relative;
+    width: 100%;
+}
+.count_item span ::before{
+position: absolute;
+content: "";
+width: 100%;
+height: 100%;
+
+top: 0;
+left: 0;
+opacity: 0.9;
+}
+span::after{
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #fff;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.header_item h4{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 40px;
+    color: #000;
+    position: relative;
+    padding-bottom: 20px;
+}
+.header_item h6{
+    font-family: 'open sans';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.header_item a{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 12px 30px;
+    background-color: rgb(177, 122, 228);
+}
+.header_item p{
+    margin-top: 50px;
+}
+.treatment {
+    background-color: #43B1D2;
+   
+}
+.treatment_info {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.treatment_info h5 {
+    font-size: 30px;
+    text-align: center;
+    background-color: #fff;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 40%;
+    padding: 5px;
+}
+.treatment_info h4 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+.treatment_info p {
+    font-family: 'opensans';
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.bttn{
+    margin-left: 50%;
+    transform: translate(-50%);
+    background-color: dodgerblue;
+}
+.chose_imge img{
+    height: 440px;
+}
+.emergency_info{
+    background-color: #3FB6C6;
+
+    
+}
+.countdown{
+    background-image: url('../images/middle-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.count_item h2{
+    padding-top: 80px;
+    color: #fff;
+    font-size: 45px;
+    
+}
+.count_item span{
+    color: #fff;
+    font-size: 50px;
+    
+}
+.count_item p{
+        color: #fff;
+        font-size: 30px;
+        padding-bottom: 80px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    
+}
+.medicla_staff{
+    background-color: #3CBBBB;
+   
+    
+}
+.doctors{
+    background-color: #37C3A8;
+    
+} 
+/* header img css end */
+
+
+/* about css start */
+#ab_section{
+    padding-top: 90px;
+    
+}
+
+.ab_heading h2{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 30px;
+    color: #333333;
+    position: relative;
+    padding-bottom: 40px;
+}
+.ab_heading h2::before{
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.ab_heading p{
+    font-family: 'OpenSans';
+    font-weight: 400;
+    font-size: 15px;
+    color: #999999;
+    margin-top: 30px;
+    padding: 0 60px;
+    margin-bottom: 85px;
+}
+
+.professional h2{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 25px;
+    color: #333333;
+    position: relative;
+    padding-bottom: 10px;
+}
+.professional p{
+font-family: OpenSans;
+font-size: 18px;
+
+}
+.professional i {
+    font-size: 35px;
+    background-color: #23A8F2;
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+/* service css start */
+.service{
+    margin-bottom: 100px;
+}
+.service_item {
+    padding-left: 15px;
+    padding-bottom: 40px;
+}
+.ours_services{
+    padding-left: 25px;
+}
+.ours_services h4{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.ours_services p{
+    font-size: 15px;
+    padding-top: 25px;
+}
+.ours_services img{
+margin-bottom: 20px;
+}
+.service_item h2{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 35px;
+    color: #333333;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 43px;
+    padding-top: 60px;
+}
+
+.service_icon i{
+    font-size: 30px;
+    color: #95e1d3;
+}
+.service_item_dec h4{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    color: #333333;
+    text-transform: uppercase;
+}
+.service_item p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    color: #999999;
+}
+.about_treatment{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.about_treatment p{
+font-size: 12px;
+padding-bottom: 25px;
+font-family: 'Roboto';
+font-weight: 400;
+   color: #999999;
+}
+.about_treatment h2{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 35px;
+    color: #333333;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 43px;
+    padding-top: 60px;
+    
+}
+.about_treatment input {
+    color: #000;
+    width: 300px;
+    padding: 10px;
+    border-radius: 50px;
+    border-style: none;
+    padding-left: 59px;
+    margin-bottom: 20px;
+    background-color: #0087BE;
+}
+.about_treatment button {
+    padding: 15px;
+    width: 305px;
+    border-style: none;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    text-align: left;
+}
+.about_treatment i{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+.btn{
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background-color: #0087BE;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+.new_patient{
+    background-color: #E2E2E2;
+}
+.patient_info h2{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 30px;
+    color: #333333;
+    position: relative;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    text-align: center;
+}
+.patient_info button {
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 25px;
+    background-color: #0087BE;
+    border-radius: 20px;
+    border-style: none;
+}
+
+/* service css end */
+
+
+
+/* team css start */
+#team{
+    padding-bottom: 90px;
+}
+.team_heading h4{
+    font-family: 'Kaushan Script';
+    font-weight: 400;
+    font-size: 24px;
+    color: #333333;
+}
+.team_heading h2{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 30px;
+    color: #333333;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 43px;
+}
+
+.team_heading p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    color: #000;
+    padding: 0 60px;
+    margin-top: 30px;
+    
+}
+
+
+.team_dec h4{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    color: #333333;
+}
+.team_dec p{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 15px;
+}
+.team_dec{
+    margin-top: 40px;
+}
+.team_dec i {
+    padding: 5px;
+    font-size: 25px;
+}
+/* gellery css start */
+
+#gellery{
+    margin-bottom: 90px;
+    background-image: url('../images/gallary-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+  
+}
+
+.gellery_item h4{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.gellery_item p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+}
+/* footer css start */
+#footer{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #171717;
+}
+
+.footer_left h5{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    color: #333333;
+}
+
+
+.footer_left i{
+    font-size: 30px;
+  
+}
+.footer_left i{
+    font-size: 30px;
+  
+}
+.footer_left h4{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    color: #95e1d3;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.gellery_medil{
+    margin-left: 20px;
+}
+.gellery_medil h4{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    color: #95e1d3;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.footer_icon i{
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+}
+
+
+.footer_link ul li{
+list-style: none;
+margin-bottom: 15px;
+}
+.footer_link ul li a{
+text-decoration: none;
+color: #fff;
+}
+.g_m_text h5{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+}
+
+#footer_end{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:#282828;
+    text-align: center;
+    color: #37C3A8;
+}
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Kaushan Script', cursive;*/

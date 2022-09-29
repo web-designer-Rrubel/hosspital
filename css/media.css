@@ -1,0 +1,619 @@
+/* Extra small  */
+@media (max-width: 575.98px) { 
+
+    /* .header_item h2 {
+        font-size: 45px;
+    }
+    .header_item h4 {
+        font-size: 35px;;
+    }
+    .section {
+        padding-top: 140px;
+        padding-bottom: 120px;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: #d9d9d900;
+    }
+    button:focus {
+        outline: 0px dotted;
+        outline: 0px;
+    }
+    #ab_section {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    .ab_heading h2 {
+        font-size: 20px;
+        padding-bottom: 25px;
+    }
+    .ab_heading p {
+        font-size: 15px;
+        margin-top: 20px;
+        padding: 0 12px;
+        margin-bottom: 50px;
+    }
+    .ab_img {
+        margin-bottom: 10px;
+    }
+    .countdown {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-bottom: 50px;
+    }
+    .service_item h2 {
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+    .service_info_item {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .service_item_dec h4 {
+        margin-top: 10px;
+    }
+    .service {
+        margin-bottom: 30px;
+    }
+    #inbox {
+        text-align: center;
+    }
+    .inbox_text p {
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    .inbox_text h4:before {
+        left: -40px;
+    }
+    .inbox_text h4 {
+        font-size: 20px;
+        margin-left: 145px;
+    }
+    #inbox {
+        margin-bottom: 50px;
+    }
+    .team_heading h2 {
+        font-size: 20px;
+        padding-bottom: 25px;
+    }
+    .team_heading p {
+        font-size: 15px;
+        padding: 0 12px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .team_dec {
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    #team {
+        padding-bottom: 30px;
+    }
+    #footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #gellery {
+        margin-bottom: 50px;
+    }
+    .gellery_medil h4 {
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+    .g_m_text h5 {
+        margin-top: 10px;
+    }
+    .gellery_right h4 {
+        margin-bottom: 15px;
+        margin-top: 20px;
+    } */
+
+/* my own css start */
+.section {
+    background-image: url('../images/header-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+    width: 100%;
+}
+.header_item.text-center {
+    width: 325px;
+}
+.header_item h4 {
+    font-size: 25px;
+}
+.header_item h6 {
+    font-size: 13px;
+    padding-bottom: 25px;
+}
+.treatment_info h5 {
+    margin-left: 45%;
+    
+}
+
+.professional.mt-5 {
+    text-align: center;
+}
+.chose_imge img {
+    height: 440px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+.service_item {
+    text-align: center;
+}
+.service_item p {
+    font-size: 12px;
+   
+}
+.ours_services {
+     padding-left: 0px; 
+    text-align: center;
+}
+.about_treatment {
+    text-align: center;
+}
+#gellery {
+    margin-bottom: 40px;
+    background-image: url('../images/gallary-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.team_heading h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+.team_heading p {
+    font-size: 12px;
+    padding: 0 12px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    color: #fff;
+}
+.patient_info h2 {
+   font-size: 15px;
+    
+}
+.patient_info button {
+    margin-top: 20px;
+}
+.footer_left {
+    text-align: center;
+}
+.gellery_medil {
+    text-align: center;
+    margin-left: 0;
+}
+.bttn{
+    margin-left: 50%;
+    transform: translate(-50%);
+    background-color: dodgerblue;
+}
+ }
+
+
+/* Small devices */
+ @media (min-width: 576px) and (max-width: 767.98px) { 
+
+
+    .navbar-light .navbar-toggler {
+        border-color: #d9d9d900;
+    }
+    button:focus {
+        outline: 0px dotted;
+        outline: 0px;
+    }
+
+    /* .header_item h4 {
+        font-size: 65px;
+    }
+    .header_item h2 {
+        font-size: 70px;
+    }
+    .section {
+        padding-top: 160px;
+        padding-bottom: 160px;
+    }
+
+    .ab_heading p {
+        padding: 0 0px;
+        margin-bottom: 50px;
+    }
+
+    .ab_img {
+        margin-bottom: 10px;
+    }
+    #ab_section {
+        padding-bottom: 50px;
+    }
+
+    .countdown {
+        margin-bottom: 60px;
+    }
+
+    .service_info_item {
+        text-align: center;
+    }
+
+    .service_item_dec h4 {
+        margin-top: 10px;
+    }
+    .service {
+        margin-bottom: 40px;
+    }
+    #inbox {
+        text-align: center;
+    }
+    .inbox_text p {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .inbox_text h4:before {
+        left: 100px;
+    }
+    #inbox {
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+    }
+    .team_heading p {
+        padding: 0 0px;
+        margin-bottom: 40px;
+    }
+    .team_dec {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    #team {
+        padding-bottom: 50px;
+    }
+    .gellery_medil h4 {
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+    .g_m_text h5 {
+        margin-top: 10px;
+    }
+    .gellery_right h4 {
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    #footer {
+        padding-bottom: 50px;
+    } */
+
+/* MY OWN CSS */
+.header_icon {
+    padding-top: 0px;
+    text-align: right;
+}
+.section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.header_item.text-center {
+    width: 300px;
+}
+.header_item h6 {
+    font-size: 15px;
+    padding-bottom: 0px;
+}
+.header_item h4 {
+    font-size: 20px;
+}
+.treatment_info h5 {
+    font-size: 25px;
+    margin-left: 45%;
+    
+}
+.treatment_info p {
+    font-size: 20px;
+    padding: 10px;
+}
+.ab_heading p {
+    padding: 0 0px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.ab_heading h2 {
+     padding-bottom: 25px;
+}
+
+.professional.mt-5 {
+    text-align: center;
+}
+.chose_imge img {
+    height: 440px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+.count_item h2 {
+    padding-top: 50px;
+    font-size: 40px;
+}
+.count_item p {
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.service_item h2 {
+    font-size: 30px;
+    padding-top: 0px;
+    text-align: center;
+}
+.ours_services {
+    padding-left: 25px;
+    text-align: center;
+}
+.about_treatment h2 {
+    font-size: 30px;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    text-align: center;
+}
+.about_treatment p {
+    text-align: center;
+}
+.about_treatment button {
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+.bttn{
+    margin-left: 50%;
+    transform: translate(-50%);
+    background-color: dodgerblue;
+}
+.team_heading h2 {
+    color: #fff;
+    padding-bottom: 15px;
+}
+.team_heading p {
+    margin-bottom: 0px;
+    color: #fff;
+}
+.patient_info h2 {
+    font-size: 17px;
+    
+}
+.patient_info button {
+    margin-top: 20px;
+  }
+  .footer_left {
+    text-align: center;
+}
+.gellery_medil {
+    text-align: center;
+}
+.footer_icon i {
+    font-size: 25px;
+    padding: 10px;
+    color: rgb(104, 104, 217);
+}
+
+ }
+
+
+/* Medium devices */
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+
+    .navbar-light .navbar-toggler {
+        border-color: #d9d9d900;
+    }
+    button:focus {
+        outline: 0px dotted;
+        outline: 0px;
+    }
+    /* .header_item h2 {
+        font-size: 120px;
+    }
+    .section {
+        padding-top: 190px;
+        padding-bottom: 180px;
+    }
+    .ab_heading p {
+        margin-bottom: 50px;
+    }
+    .ab_overly_item h4 {
+        font-size: 15px;
+    }
+    #ab_section {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .countdown {
+        margin-bottom: 60px;
+    }
+    .service_info_item {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .service_item_dec h4 {
+        margin-top: 10px;
+    }
+    .service {
+        margin-bottom: 50px;
+    }
+    .inbox_text p {
+        font-size: 20px;
+    }
+    #inbox {
+        margin-bottom: 60px;
+    }
+    .team_icon i {
+        font-size: 20px;
+        padding: 10px 10px;
+    }
+    .team_dec {
+        margin-top: 10px;
+    }
+    .team_heading p {
+        margin-bottom: 40px;
+    }
+    #team {
+        padding-bottom: 50px;
+    }
+    .gellery_item h4 {
+        font-size: 8px;
+    }
+    .gellery_item p {
+        font-size: 9px;
+    }
+    #gellery {
+        margin-bottom: 50px;
+    }
+    .gellery_medil h4 {
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .g_m_text h5 {
+        margin-top: 10px;
+    }
+    .gellery_right h4 {
+        margin-bottom: 15px;
+        margin-top: 15px;
+    } */
+
+
+    /* my own css */
+    .header_icon {
+        padding-top: 0px;
+        text-align: right;
+    }
+    .header_item h4 {
+      font-size: 20px;
+        
+    }
+    
+    .header_item h6 {
+       font-size: 14px;
+       padding-bottom: 15px;
+       
+    }
+    .professional h2 {
+       font-size: 20px;
+        
+    }
+    .professional i {
+        font-size: 25px;
+       padding: 10px;
+        
+    }
+    .professional p {
+        font-family: OpenSans;
+        font-size: 20px;
+    }
+    .chose_imge img {
+        height: 400px;
+        margin-top: 60px;
+    }
+    #ab_section {
+        padding-bottom: 40px;
+    }
+    .ab_heading p {
+        margin-bottom: 20px;
+    }
+    .chose_imge img {
+        height: 400px;
+        margin-top: 40px;
+    }
+    .count_item p {
+        font-size: 25px;
+        
+    }
+    .ours_services {
+        padding-left: 7px;
+    }
+    .service_item {
+        text-align: center;
+    }
+    .service_item h2 {
+        font-size: 30px;
+        padding-bottom: 20px;
+        padding-top: 0px;
+    }
+    .service_item p {
+       font-size: 14px;
+       
+    }
+    .about_treatment h2 {
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .about_treatment p {
+        text-align: center;
+    }
+    .about_treatment button {
+        width: 217px;
+       
+    }
+.bttn{
+    margin-left: 50%;
+    transform: translate(-50%);
+    background-color: dodgerblue;
+}
+.team_heading h2 {
+     padding-bottom: 0px;
+     color: #fff;
+}
+
+.team_heading p {
+    margin-bottom: 0px;
+    font-size: 12px;
+    color: #fff;
+}
+.team_heading h2 {
+    padding-bottom: 0px;
+    color: #000;
+}
+.team_heading p {
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #000;
+}
+.patient_info h2 {
+    font-size: 20px;
+    padding-bottom: 35px;
+    padding-top: 35px;
+   
+}
+.patient_info button {
+  margin-top: 20px;
+}
+.footer_left {
+    margin-left: 70px;
+}
+.gellery_medil {
+    margin-left: 80px;
+}
+.g_m_text h5 {
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.footer_left h4 {
+   padding-top: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.gellery_medil h4 {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.footer_icon i {
+    font-size: 25px;
+    padding: 10px;
+    color: rgb(104, 104, 217);
+}
+  }
+
+
